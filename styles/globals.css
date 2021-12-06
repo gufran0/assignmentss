@@ -1,16 +1,71 @@
-html,
+
 body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-color: black;
+  color:white;
+
+} input {
+  outline-width: 0;
+  border: 0px none;
+} 
+.left-part {
+  padding-top: 60px;
+  padding-left: 60px;
+  border-right: solid 1px grey;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+.orange-border {
+  margin-top: 30px;
+  width: 20%;
+  background-color: orange;
+  height: 2px;
+}
+.myinput {
+  width: 86%;
+  margin: 12px;
+  font-size: 24px;
+  background-color: black;
+  color: white;
+  border-bottom: solid 1px grey;
+
 }
 
-* {
-  box-sizing: border-box;
+.mylabel {
+  margin: 12px;
+color: grey;
+font-size: 24px;
+
+}
+input[type="checkbox"]{
+  width: 22px; /*Desired width*/
+  height: 22px; /*Desired height*/
+  filter: hue-rotate(150deg) 
+}
+#robot {
+  font-size: 20px;
+}
+.labels {
+  margin: 12px;
+color: grey;
+font-size: 24px;
+padding-bottom: 4px;
+  
+
+}
+.textareas {
+  padding-top: 4px;
+  width: 100%;
+  height: 320px;
+  margin: 12px;
+  font-size: 24px;
+  background-color: black;
+  color: white;
+  border-bottom: solid 1px grey;
+  outline-width: 0;
+  border: 0px none;
+}
+.sendbutton {
+  height: 55px;
+  width: 100%;
+  background-color: orange;
+  color: white;
 }
